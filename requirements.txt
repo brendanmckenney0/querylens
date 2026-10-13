@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn>=0.29
+sqlparse>=0.4.4
+openai>=1.30  # only needed for PROVIDER=openai; local mode has no API deps
+pydantic>=2.0  # (pulled in by fastapi; listed for clarity)
